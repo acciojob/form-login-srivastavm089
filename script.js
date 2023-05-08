@@ -1,4 +1,5 @@
 function getFormvalue() {
-    //Write your code here
-
+  let Name = document.getElemetById('name').value;
+   let Last =  document.getElemetById('last-name').value;
+   alert(Name+" "+Last)
 }
